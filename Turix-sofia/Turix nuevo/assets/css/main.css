@@ -7,8 +7,9 @@ body {
 }
 
 ol, ul {
-	list-style: none;
+	list-style: none:
 }
+
 
 blockquote, q {
 	quotes: none;
@@ -96,7 +97,7 @@ input, select, textarea {
 
 	a {
 		color: #0090c5;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
