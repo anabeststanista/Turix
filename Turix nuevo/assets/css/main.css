@@ -1959,8 +1959,7 @@ ul.menu li:first-child {
 
 #nav ul li {
 	float: left;
-	line-height: 4.5em;
-	padding-left: 1.5em;
+	line-height: 4.5em
 }
 
 #nav ul li a,
@@ -1980,21 +1979,38 @@ ul.menu li:first-child {
 #nav ul li>ul {
 	display: none;
 }
-
-#nav ul li:hover a,
-#nav ul li:hover span {
-	background: #fff;
-}
-
-#nav ul li.active a,
-#nav ul li.active span {
-	background: #fff;
-}
+#nav ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fea;
+	padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #nav ul ul li {
+	float:none;
+	width:150px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   # ul ul a {
+	line-height:120%;
+	padding:10px 15px;
+   }
+   
 
 #nav ul li.current a {
 	background: #444;
 	color: #fff;
 }
+#nav ul li:hover > ul {
+	display:block;
+   }
+   
 
 .dropotron {
 	background: #fff;
