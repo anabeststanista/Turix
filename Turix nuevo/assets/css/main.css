@@ -108,11 +108,12 @@ textarea {
 }
 
 a {
-	color: #0090c5;
-	text-decoration: underline;
+	color: #696969;;
+	text-decoration: none;
 }
 
 a:hover {
+	color:#ffcb42;
 	text-decoration: none;
 }
 
@@ -1776,9 +1777,11 @@ ul.menu li:hover {
 }
 
 ul.menu li:first-child {
-	border-left: 2%;
-	margin-left: 2%;
-	padding-left: 2%;
+	border-left: 10%;
+	margin-left: 6%;
+	padding-left: 6%;
+	align-items: center;
+	align-content: center;
 	text-decoration: none;
 }
 
