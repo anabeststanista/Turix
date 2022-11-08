@@ -1784,7 +1784,7 @@ input, select, textarea {
 			border-radius: 100%;
 			display: block;
 			width: 20em;
-            background-color:#fea;
+			align-items: center;
 		}
 
 		.author:hover .name {
